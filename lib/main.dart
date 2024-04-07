@@ -1,4 +1,5 @@
 import 'package:exer6/provider/shopping_cart_provider.dart';
+import 'package:exer6/screen/checkout.dart';
 import 'package:exer6/screen/my_cart.dart';
 import 'package:exer6/screen/my_catalog.dart';
 import 'package:flutter/material.dart';
@@ -27,6 +28,7 @@ class MainApp extends StatelessWidget {
       routes: {
         '/cart': (context) => const MyCart(),
         '/products': (context) => const MyCatalog(),
+        '/checkout': (context) => const Checkout(),
       },
       home: const MyCatalog(),
     );

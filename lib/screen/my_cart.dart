@@ -27,6 +27,12 @@ class MyCart extends StatelessWidget {
                     },
                     child: const Text('Reset'),
                   ),
+                  ElevatedButton(
+                    onPressed: () {
+                      Navigator.pushNamed(context, '/checkout');
+                    },
+                    child: const Text('Checkout'),
+                  ),
                 ],
               ),
             ),
